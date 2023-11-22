@@ -1,77 +1,85 @@
-
-
-.header{
-    background-color:#d6929c;
-    height: 50px;
+html, body {
     width: 100%;
-    text-align: center;
-    border-radius: 10px;
-    padding-top: 25px;
-    box-shadow: 1px 5px 3px white;
-    font-family: dancing script;
-    
-
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: League Spartan;
 }
 
 body {
-    background-color: #2e6a67;
+    background: linear-gradient(to bottom,#233945 , #8dbeda);  
+    background-size: cover;
 }
 
-
-h1 {
-
-   font-weight: 100;
-   text-align: center;
-   padding-top: 20px;
-   color: aliceblue;
-   width: 100%;
-   
+.item{
+    width: 150px;
+    height: 150px;
+    background-color: #6c9ebb;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 230px;
+    cursor: pointer;
+    box-shadow: 2px 1px 30px 1px rgb(0, 0, 0);
 }
 
-.link{
-    background: #d6929c;
-    box-shadow: 2px 2px 2px 2px white;
-    border-radius: 10px;
-    height: 100%;
-    
+.topo{
+    width: 300px;
+    height: 300px;
+    background-color: #295872;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 550px;
+    cursor: pointer;
+    box-shadow: 1px 1px 20px 5px rgb(192, 192, 192);
+
 }
 
-a{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: aliceblue;
-  text-decoration: none;
-  padding-left: 190px;
-  font-size: 17px;
-  width: 100%;
+.img{
+    width: 190px;
+    margin-left: 55px;
+    margin-top: 10px;
 }
 
-a:hover{
-    color: rgb(62, 74, 60);
-}
-
-.foto {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    margin-top: 40px;
-    margin-bottom: 50px;
-    border-radius: 20px;
-    box-shadow: 3px 3px 50px white;
-}
-
-.h1{
-   
+.a{
     font-size: 50px;
-    
+    margin-left: 60px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
-@media (min-width:300) {
-    a {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(240, 255, 246);
+div:hover{
+    transform: scale(1.05);
+    transition: .6s;
+}
+
+.entrada{
+    font-size: 30px;
+    color: aliceblue;
     text-decoration: none;
-    font-size: 10px;
-    width: 100%;
-    }
+    margin-left: 25px;
+}
+
+.jantar{
+    font-size: 30px;
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 35px;
+}
+
+.sobremesa{
+    font-size: 26px;
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 12px;
+}
+
+img{
+    width:50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
