@@ -76,6 +76,7 @@ img{
     margin-left: 20%;
     margin-bottom: 10%;
     cursor: pointer;
+    flex-wrap: wrap-reverse;
     box-shadow: 2px 1px 10px 1px rgb(123, 126, 133);
 }
 
